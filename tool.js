@@ -19,4 +19,3 @@
 // });
 
 // console.log(lyrics); // 处理后的歌词数据
-console.log(Number(38.356156) > Number(30));
