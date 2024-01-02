@@ -40,7 +40,11 @@ const insertBoard = (boardStatusParma: IBoardOptions) => {
       document.body.appendChild(baseElement);
       // 倒计时自动关闭
       const boardTip = document.querySelector('#board-tip');
-      if (boardTip) {
+      if (
+        boardTip &&
+        boardStatusParma.autoCloseInterval &&
+        boardStatusParma.isShowAutoCloseTip
+      ) {
         let countDown = boardStatusParma.autoCloseInterval;
         const tipTimer = setInterval(() => {
           console.log('board information');
