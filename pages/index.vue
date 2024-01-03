@@ -30,9 +30,7 @@
   onMounted(() => {
     initBoard({
       sign: 'board-test',
-      imgUrl: [
-        'https://img.linkstarted.top/blog/wallhaven-1p2m2w.jpg',
-      ],
+      imgUrl: ['https://img.linkstarted.top/blog/wallhaven-1p2m2w.jpg'],
       expirationTime: '2023-12-31',
       swipeTimeInterval: 0,
       style: 'default',
