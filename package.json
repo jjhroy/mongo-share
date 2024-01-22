@@ -15,7 +15,8 @@
     "@unocss/preset-attributify": "^0.58.0",
     "@unocss/preset-icons": "^0.58.0",
     "@unocss/preset-web-fonts": "^0.58.0",
-    "nuxt": "^3.8.2",
+    "@unocss/preset-wind": "^0.58.3",
+    "nuxt": "^3.9.1",
     "sass": "^1.69.5",
     "vue": "^3.3.8",
     "vue-router": "^4.2.5"
